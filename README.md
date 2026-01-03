@@ -34,29 +34,6 @@ This project introduces a **label-aware, risk-driven interaction loop**, where t
 - Prevents unsafe or premature recommendations
 
 **No dosage or reminder plan is generated until all required safety questions are answered.**
-
----
-
-## End-to-End Interaction Flow
-
-```
-
-User Drug Query
-↓
-FDA Label Retrieval (RAG)
-↓
-Risk Detection Engine
-↓
-Dynamic Safety Questions
-↓
-User Responses
-↓
-Conditional Reasoning
-↓
-Final Recommendation + Reminder Plan
-
-````
-
 ---
 
 ## Example Interaction
